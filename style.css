@@ -1,0 +1,166 @@
+#encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#encabezadoFiltrado {
+    display: flex;
+    align-items: center;
+}
+
+#seleccionCategoria {
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+#buscadorBarra {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    width: 500px;
+}
+
+#barraBusqueda {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+#iconoBuscador {
+    width: 30px;
+    cursor: pointer;
+}
+
+#carrito {
+    width: 40px;
+    padding: 5px;
+    position: relative;
+}
+
+#cantidadIconoCarrito {
+    cursor: pointer;
+}
+
+#cantidadSeleccionadaCarrito {
+    position: absolute;
+    top: 55%;
+    right: 0;
+
+    background-color: black;
+    color: white;
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#contenedorCarrito {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: wheat;
+    width: 350px;
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.contenedorCarritoOculto {
+    display: none;
+}
+
+.productoCarrito {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+#cantidadProductoCarrito {
+    font-size: 25px;
+}
+
+#precioProductoCarrito {
+    font-weight: 900;
+
+}
+
+#iconoEliminarProductoCarrito {
+    width: 25px;
+    height: 25px;
+}
+
+#iconoEliminarProductoCarrito:hover {
+    stroke: red;
+    cursor: pointer;
+}
+
+#contenedorTotalCarrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    gap: 20px;
+    font-size: 20px;
+}
+
+#totalCarrito {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#botonPagarCarrito {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    height: 400px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+}
+
+.producto * {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.producto img {
+    margin: 0px;
+    width: 300px;
+    height: 30%;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    font-size: 30px;
+}
+
+.producto button {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 100px;
+    cursor: pointer;
+}

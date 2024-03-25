@@ -1,0 +1,74 @@
+[
+    {
+        "id": 4,
+        "nombre": "God of War",
+        "categoria": "Juegos",
+        "stock": 5,
+        "precio": 60,
+        "imagen": "god of war.jpeg"
+    },
+    {
+        "id": 7,
+        "nombre": "Uncharted 4",
+        "categoria": "Juegos",
+        "stock": 7,
+        "precio": 50,
+        "imagen": "uncharted 4.jpeg"
+    },
+    {
+        "id": 15,
+        "nombre": "Dark Souls 3",
+        "categoria": "Juegos",
+        "stock": 10,
+        "precio": 40,
+        "imagen": "dark souls 3.jpeg"
+    },
+    {
+        "id": 61,
+        "nombre": "La era del hielo",
+        "categoria": "Peliculas",
+        "stock": 11,
+        "precio": 50,
+        "imagen": "la-era-de-hielo-1.jpg"
+    },
+    {
+        "id": 123,
+        "nombre": "Jumanji",
+        "categoria": "Peliculas",
+        "stock": 8,
+        "precio": 45,
+        "imagen": "jumanji.jpeg"
+    },
+    {
+        "id": 2,
+        "nombre": "Los Minions",
+        "categoria": "Peliculas",
+        "stock": 2,
+        "precio": 35,
+        "imagen": "los minions.jpeg"
+    },
+    {
+        "id": 51,
+        "nombre": "Juego de Tronos",
+        "categoria": "Series",
+        "stock": 9,
+        "precio": 20,
+        "imagen": "juegos de tronos.jpeg"
+    },
+    {
+        "id": 8,
+        "nombre": "Lupin",
+        "categoria": "Series",
+        "stock": 12,
+        "precio": 15,
+        "imagen": "lupin.jpeg"
+    },
+    {
+        "id": 93,
+        "nombre": "What if",
+        "categoria": "Series",
+        "stock": 7,
+        "precio": 10,
+        "imagen": "what if.jpeg"
+    }
+]
